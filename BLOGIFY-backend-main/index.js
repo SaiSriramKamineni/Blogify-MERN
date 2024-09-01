@@ -14,7 +14,7 @@ app.use(bodyParser.json({ limit: '30mb', extended: true }));
 app.use(bodyParser.urlencoded({ limit: '30mb', extended: true }));
 
 app.use(cors({
-  origin: 'https://blogify-mern-bwdy.vercel.app'  // Removed the extra space
+  origin: 'https://blogify-mern-bwdy.vercel.app'  
 }));
 
 app.use('/posts', postRoutes);
@@ -25,6 +25,6 @@ const PORT = process.env.PORT || 5000;
 mongoose
   .connect(process.env.CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true }) // Ensuring compatibility with new MongoDB driver
   .then(() => 
-    app.listen(PORT, () => console.log(`Server running on port: ${PORT}`))
+    app.listen(PORT, () => console.log(Server running on port: ${PORT}))
   )
   .catch((error) => console.log(error.message));
