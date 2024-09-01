@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #db87a7bd;
+  background-color: #87a7dbbd; /* A soft blue background */
   background-image: url("bg.png");
   background-attachment: fixed;
   background-size: cover;
@@ -17,14 +17,14 @@ body {
   height: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: #c9c9c9c7;
+  background: #b0c4de; /* Light steel blue for scrollbar track */
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(99, 73, 73, 0.5);
+  background: rgba(54, 69, 79, 0.5); /* Dark slate gray */
   border-radius: 5px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(124, 113, 113, 0.5);
+  background: rgba(79, 99, 112, 0.5); /* Slightly brighter dark slate gray */
 }
 .transparentCard {
   background: rgba(255, 255, 255, 0.733);
@@ -127,7 +127,7 @@ body {
   animation: rotary 1s infinite linear;
   border-radius: 100%;
   content: '';
-  background-color: #be185d;
+  background-color: #1e3a8a; /* Navy blue for rotary color */
   display: block;
   height: 25px;
   width: 25px;
@@ -144,7 +144,6 @@ body {
   align-items: center;
   gap: 0 0.25rem;
 
-  /* background: crimson; */
   background: rgba(255, 255, 255, 0.705);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(5px);
@@ -184,7 +183,7 @@ body {
 }
 
 .pagination li.active {
-  background-color: rgb(190 24 93);
-  border-color: rgb(190 24 93);
+  background-color: #1e3a8a; /* Navy blue for active page */
+  border-color: #1e3a8a;
   color: #fff;
 }

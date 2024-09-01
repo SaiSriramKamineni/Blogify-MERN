@@ -33,13 +33,12 @@ function SignUp() {
       toast.error('Passwords Do Not Match!')
       return
     }
-    // console.log('Sign Up Data.............', formData)
     dispatch(signUp(formData, navigate))
   }
 
   return (
     <form
-      className='flex flex-col gap-y-4'
+      className='flex flex-col gap-y-4 p-6 bg-white shadow-lg rounded-lg'
       autoComplete='off'
       onSubmit={handleOnSubmit}
     >
@@ -50,7 +49,7 @@ function SignUp() {
         value={name}
         onChange={handleOnChange}
         placeholder='Name'
-        className='border-[1px] border-slate-400 p-2 rounded-md bg-transparent placeholder:text-gray-700'
+        className='border border-slate-300 p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-transparent placeholder-gray-500'
       />
       <input
         type='email'
@@ -59,7 +58,7 @@ function SignUp() {
         value={email}
         onChange={handleOnChange}
         placeholder='Email'
-        className='border-[1px] border-slate-400 p-2 rounded-md bg-transparent placeholder:text-gray-700'
+        className='border border-slate-300 p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-transparent placeholder-gray-500'
       />
       <input
         type='password'
@@ -68,7 +67,7 @@ function SignUp() {
         value={password}
         onChange={handleOnChange}
         placeholder='Password'
-        className='border-[1px] border-slate-400 p-2 rounded-md bg-transparent placeholder:text-gray-700'
+        className='border border-slate-300 p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-transparent placeholder-gray-500'
       />
       <input
         type='password'
@@ -77,16 +76,15 @@ function SignUp() {
         value={confirmPassword}
         onChange={handleOnChange}
         placeholder='Confirm Password'
-        className='border-[1px] border-slate-400 p-2 rounded-md bg-transparent placeholder:text-gray-700'
+        className='border border-slate-300 p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-transparent placeholder-gray-500'
       />
-      <div className='flex flex-col space-y-2 mb-2'>
+      <div className='flex flex-col space-y-3 mt-4'>
         <button
           type='submit'
-          className='w-full bg-pink-700 text-white cursor-pointer p-2 rounded-md uppercase'
+          className='w-full bg-green-600 hover:bg-green-700 text-white font-semibold py-3 rounded-md transition duration-300 ease-in-out uppercase'
         >
           Sign Up
         </button>
-       
       </div>
     </form>
   )

@@ -46,7 +46,7 @@ function SearchForm() {
         noAuth={true}
       />
       <button
-        className='bg-blue-500 text-white w-full p-2 rounded-md'
+        className='bg-yellow-400 text-white w-full p-2 rounded-md'
         onClick={handleSearch}
       >
         Search Blogs

@@ -21,8 +21,6 @@ function Form() {
   const { loading } = useSelector((state) => state.loading)
   const { user } = useSelector((state) => state.auth)
 
-  // console.log(JSON.parse(localStorage.getItem('user')).token)
-
   const [tagInputs, setTagInputs] = useState([])
 
   const [formData, setFormData] = useState({
@@ -39,7 +37,6 @@ function Form() {
         dispatch(logUserOut())
         return
       }
-      // console.log(editPost)
       setFormData({
         title: editPost.title,
         message: editPost.message,
@@ -82,9 +79,7 @@ function Form() {
       toast.error('You are not Logged In!')
       return
     }
-    // console.log(formData)
 
-    // checks if login token is still valid
     if (!checkUserToken()) {
       toast.info('Session Expired!')
       dispatch(logUserOut())
@@ -136,7 +131,6 @@ function Form() {
           })
           .catch((err) => {
             dispatch(setLoading(false))
-            // console.log('Cloudinary upload error.........', err)
           })
       }
     } else {
@@ -180,7 +174,6 @@ function Form() {
         .catch((err) => {
           dispatch(setLoading(false))
           toast.error('Something Went Wrong!')
-          // console.log('Cloudinary upload error.........', err)
         })
     }
   }
@@ -261,7 +254,7 @@ function Form() {
           <button
             type='submit'
             disabled={!user}
-            className='bg-pink-700 text-white cursor-pointer p-2 rounded-md uppercase'
+            className='bg-green-600 hover:bg-green-700 text-white cursor-pointer p-2 rounded-md uppercase'
           >
             {!editPost ? 'Submit' : 'Edit'}
           </button>
@@ -270,7 +263,7 @@ function Form() {
             <button
               onClick={handleClear}
               disabled={!user}
-              className='bg-blue-600 text-white p-1 rounded-md'
+              className='bg-blue-600 hover:bg-blue-700 text-white p-1 rounded-md'
             >
               Clear
             </button>
@@ -278,7 +271,7 @@ function Form() {
             <button
               onClick={handleCancel}
               disabled={!user}
-              className='bg-blue-600 text-white p-1 rounded-md'
+              className='bg-blue-600 hover:bg-blue-700 text-white p-1 rounded-md'
             >
               Cancel
             </button>
