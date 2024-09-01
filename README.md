@@ -42,7 +42,7 @@ Watch a demo video showcasing the working functionality of Blogify: [Watch Demo]
 
 Here’s a preview of the project structure:
 
-![Project Structure](./Screenshot![Screenshot 2024-09-01 152859](https://github.com/user-attachments/assets/cf53de1c-8db8-437f-9f8b-7eb7d8f6f3c4)
+![Project Structure]([Screenshot 2024-09-01 152859](https://github.com/user-attachments/assets/cf53de1c-8db8-437f-9f8b-7eb7d8f6f3c4)
 %202024-09-01%20032853.png)
 
 ## 🔧 Technologies Used
