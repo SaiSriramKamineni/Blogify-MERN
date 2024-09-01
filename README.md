@@ -8,11 +8,11 @@ This project is built using the MERN stack, consisting of MongoDB, Express.js, R
 
 ## 🌐 Live Link
 
-Check out the live version of the platform: [Blogify Live](https://blogify-mern-bwdy.vercel.app/posts)
+Check out the live version of the platform: [Blogify Live](https://blogfrontend-new.vercel.app/posts)
 
 ## 🎥 Demo Video
 
-Watch a demo video showcasing the working functionality of Blogify: [Watch Demo](https://drive.google.com/file/d/1BsuTeUWUTXCZXufGBV7UszKOdmKcgMXL/view?usp=sharing)
+Watch a demo video showcasing the working functionality of Blogify: [Watch Demo](https://drive.google.com/file/d/1LXA6yUeIjRS1O0YsEa5RmU-fbyPb2ige/view?usp=sharing)
 
 ## 📂 Project Structure
 
