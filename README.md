@@ -42,8 +42,7 @@ Watch a demo video showcasing the working functionality of Blogify: [Watch Demo]
 
 Here’s a preview of the project structure:
 
-![Project Structure]([Screenshot 2024-09-01 152859](https://github.com/user-attachments/assets/cf53de1c-8db8-437f-9f8b-7eb7d8f6f3c4)
-%202024-09-01%20032853.png)
+![Project Structure](https://github.com/user-attachments/assets/cf53de1c-8db8-437f-9f8b-7eb7d8f6f3c4/Screenshot%202024-09-01%20032853.png)
 
 ## 🔧 Technologies Used
 
@@ -51,13 +50,3 @@ Here’s a preview of the project structure:
 - **Express.js**: Backend framework for handling routes and server logic.
 - **React.js**: Frontend library for building the user interface.
 - **Node.js**: Server-side JavaScript runtime for backend operations.
-- **Tailwind CSS**: For styling the frontend components with custom and utility-first CSS.
-
----
-
-Feel free to reach out if you have any questions or suggestions. Happy coding! 😊
-
-## 🔗 Connect with Me
-
-- **Portfolio**: [https://ram-com.netlify.app/](https://ram-com.netlify.app/)
-- **LinkedIn**: [https://www.linkedin.com/in/saisriram-kamineni/](https://www.linkedin.com/in/saisriram-kamineni/)
